@@ -10,12 +10,15 @@ r = requests.get(url)
 weatherdic = json.loads(r.text)
 w = weatherdic["current"]["temp_c"]
 w1 = weatherdic["current"]["humidity"]
+w2 = weatherdic["location"]["country"]
 print(weatherdic["current"]["temp_c"])
 speak = wincom.Dispatch("SAPI.SpVoice")
 
 # os.system(f"say'The current waether in {city} is {w} degrees.'")
 text = (f"'The current waether in {city} is {w} degrees.'")
 text1 = (f"'The current humidity of {city} is {w1}.'")
+text2 = (f"'The name of the city is {city} and name of city is {w2}.'")
 speak.Speak(text)
 speak.Speak(text1)
+speak.Speak(text2)
 
