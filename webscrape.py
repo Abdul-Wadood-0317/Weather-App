@@ -27,3 +27,4 @@ if response.status_code == 200:
     print("\n".join(urdu_text))
 else:
     print(f"Error: Could not access the URL. Status code: {response.status_code}")
+#code is my life now,i have to do it no matter how much time does it takes
