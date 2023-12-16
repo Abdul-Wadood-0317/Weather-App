@@ -27,4 +27,4 @@ if response.status_code == 200:
     print("\n".join(urdu_text))
 else:
     print(f"Error: Could not access the URL. Status code: {response.status_code}")
-#Today i learnt two lessons ,Consistency and Balance in 
+#Today i learnt two lessons ,Consistency and 
