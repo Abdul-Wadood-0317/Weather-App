@@ -139,7 +139,8 @@ websites_to_scrape = [
 	"https://www.bbc.com/urdu/articles/crgplv085veo",	
 	"https://www.bbc.com/urdu/articles/cv2vxpd8glgo",	
 	"https://www.bbc.com/urdu/articles/c84v29ep7kzo",	
-	"https://www.bbc.com/urdu/articles/cn0ppry5vv9o",	
+	"https://www.bbc.com/urdu/articles/cn0ppry5vv9o",
+    "https://www.bbc.com/urdu/articles/cd1mgk2nme5o",
     
      
             # Add other URLs from your list
